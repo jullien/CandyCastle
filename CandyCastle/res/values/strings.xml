@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Candy Castle</string>
+	<string name="test">Test Glucose</string>
+	<string name="txt1">Test Glucose</string>
+	<string name="txt2">Please enter your Blood Sugar Level!</string>
+	<string name="txt3">Blood Sugar Level: </string>
+	<string name="txt4">The Dark Forces attacked and your wall have been destroyed</string>
+	<string name="txt5">Your points have been lost and you will have to start all over again!</string>
+	<string name="ok">OK</string>
+	<string name="score">Score</string>
+	<string name="share">Share</string>
+	<string name="restart">New Match</string>
+	<string name="submit">Login Google</string>
+	<string name="change">Change user</string>
+	<string name="start">Back to Candy Castle</string>
+	<string name="facebook_button">Facebook login/logout button</string>
+	<string name="email">E-mail</string>
+	<string name="password">Password</string>
+	<string name="close">Close</string>
+</resources>

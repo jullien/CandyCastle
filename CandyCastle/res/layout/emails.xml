@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#2594d9"
+    android:fillViewport="false"
+    android:orientation="vertical" >
+	
+	<LinearLayout
+	    android:id="@+id/emails"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/line1"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_marginTop="30dp" >
+
+	        <TextView
+	            android:id="@+id/email"
+	            android:layout_width="107dp"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:text="@string/email"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textColor="#ffffff" />
+			
+			<candy.castle.LayoutEmail
+			    android:id="@+id/back1"
+			    android:layout_width="210dp"
+			    android:layout_height="match_parent"
+			    android:gravity="center" >
+    			
+		        <EditText
+		            android:id="@+id/emailtext"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:gravity="center"
+		            android:inputType="textEmailAddress"
+		            android:textColor="#ffffff" />
+			</candy.castle.LayoutEmail>
+	    </LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/line2"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:layout_marginTop="30dp" >
+	    
+		    <TextView
+		        android:id="@+id/pass"
+		        android:layout_width="107dp"
+		        android:layout_height="40dp"
+		        android:gravity="center"
+		        android:text="@string/password"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textColor="#ffffff" />
+			
+		    <candy.castle.LayoutEmail
+		        android:id="@+id/back2"
+		        android:layout_width="210dp"
+		        android:layout_height="match_parent"
+		        android:gravity="center" >
+			    
+			    <EditText
+			        android:id="@+id/passtext"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:gravity="center"
+			        android:inputType="textPassword"
+			        android:textColor="#ffffff" />
+			</candy.castle.LayoutEmail>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

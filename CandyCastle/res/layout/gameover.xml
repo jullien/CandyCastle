@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<candy.castle.BaloonLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transparent_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="225dp"
+        android:layout_height="227dp" >
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/txt4"
+            android:textColor="#000000"
+            android:textSize="10.5pt" />
+        
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txt4"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/txt5"
+            android:textColor="#000000"
+            android:textSize="5.5pt" />
+
+        
+    </RelativeLayout>
+</candy.castle.BaloonLayout>
